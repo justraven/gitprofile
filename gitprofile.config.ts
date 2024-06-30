@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 4, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['LaTeX-Resume', 'justraven'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['justraven/LaTeX-Resume', 'justraven/justraven'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -50,6 +50,14 @@ const CONFIG = {
         },
         {
           title: 'Green House Monitoring System',
+          description:
+            '',
+          imageUrl:
+            '',
+          link: '',
+        },
+        {
+          title: 'Simple Flight Controller',
           description:
             '',
           imageUrl:
@@ -169,7 +177,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode

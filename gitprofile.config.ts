@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 4, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: [LaTex-ReadableStreamBYOBRequest, justraven], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['LaTex-Resume', 'justraven'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {

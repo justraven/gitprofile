@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 4, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['LaTex-Resume', 'justraven'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['LaTeX-Resume', 'justraven'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -152,14 +152,6 @@ const CONFIG = {
       authors: 'Galuh Adi Insani, Nadhif Rahmawansyah, Alim Satria, and Muchamad Aldi Rohmawan',
       link: 'https://wpsaindonesia.id/publication/research_detail/penelitian-3',
       description: 'Penelitian ini mengevaluasi akurasi sensor IoT BroilerX dalam memantau kondisi lingkungan kandang ayam broiler di Fakultas Peternakan Universitas Gadjah Mada. Tujuan utama adalah menguji akurasi berbagai versi BroilerX (ambient 1.2 dan ambient 1.3) dalam mengukur suhu dan kadar ammonia di kandang. Hasil penelitian menunjukkan bahwa BroilerX ambient 1.2 lebih akurat dalam mengukur suhu dengan selisih data 1,23 ± 0,81 dibandingkan BroilerX ambient 1.3 yang memiliki selisih 1,76 ± 1,45. Sebaliknya, BroilerX ambient 1.3 lebih akurat dalam mengukur kadar ammonia dengan selisih data 1,02 ± 0,52 dibandingkan BroilerX ambient 1.2 yang memiliki selisih 25,23 ± 7,03. Penelitian ini menekankan perlunya pengembangan lebih lanjut untuk meningkatkan akurasi sensor pada versi BroilerX berikutnya.',
-    },
-    {
-      title: '',
-      conferenceName: '',
-      journalName: '',
-      authors: '',
-      link: '',
-      description: '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)

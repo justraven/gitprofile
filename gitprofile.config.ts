@@ -51,9 +51,9 @@ const CONFIG = {
         {
           title: 'Green House Monitoring System',
           description:
-            '',
+            'Developed and implemented an Internet of Things (IoT) system specifically designed for monitoring and controlling greenhouse environments. This solution incorporates environmental sensors, actuators, and communication technologies to form a comprehensive platform that optimizes greenhouse conditions. By acquiring real-time data, our system continuously gathers information on essential environmental variables such as temperature, humidity, soil moisture, soil pH, and light levels. Furthermore, it provides remote monitoring and control capabilities, allowing users to access and manage the greenhouse environment from anywhere through an app.',
           imageUrl:
-            'https://media.licdn.com/dms/image/D562DAQHT_aw5RTIEHA/profile-treasury-image-shrink_1920_1920/0/1705330085228?e=1720332000&v=beta&t=6B91EWlAF7792rPo8xuOABwuVoqIfLYnU-MgknBo9-A',
+            '',
           link: '',
         },
         {
@@ -61,7 +61,7 @@ const CONFIG = {
           description:
             'Developed a quadrotor flight controller utilizing two ATMega328P microcontroller chips. The first microcontroller is dedicated to the control and stabilization of the quadrotor, managing the essential flight parameters and ensuring stable flight performance. The second ATmega328P chip is specifically tasked with handling communication with a GPS module, facilitating precise navigation and position tracking. The flight controller PCB is developed using KiCAD utilizing single layer configuration. The goal of the project is to make a simple and affordable flight controller to use for studying quadrotor movement control.',
           imageUrl:
-            'https://media.licdn.com/dms/image/D562DAQHhGejoHanR6g/profile-treasury-image-shrink_800_800/0/1706716474287?e=1720332000&v=beta&t=BmerKJzdxYzDdXXighVlUkC2vKxh9k2zJUh3BrpeVJY',
+            '',
           link: '',
         },
         {

@@ -142,8 +142,8 @@ const CONFIG = {
     {
       institution: 'Universitas Gadjah Mada',
       degree: 'Bachelor of Applied Engineering',
-      from: '2023',
-      to: '2021',
+      from: '2021',
+      to: '2023',
     },
     {
       institution: 'Universitas Gadjah Mada',

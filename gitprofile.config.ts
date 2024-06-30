@@ -17,10 +17,10 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 0, // How many projects to display.
+        limit: 4, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [LaTex-ReadableStreamBYOBRequest, justraven], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -146,12 +146,12 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: '',
-      conferenceName: '',
+      title: 'Sistem Monitoring Kualitas Udara Dan Suhu Dengan Internet Of Things Untuk Produksi Ayam Broiler',
+      conferenceName: 'Seminar Nasional Perkumpulan Masyarakat Ilmu Perunggasan Indonesia',
       journalName: '',
-      authors: '',
-      link: '',
-      description: '',
+      authors: 'Galuh Adi Insani, Nadhif Rahmawansyah, Alim Satria, and Muchamad Aldi Rohmawan',
+      link: 'https://wpsaindonesia.id/publication/research_detail/penelitian-3',
+      description: 'Penelitian ini mengevaluasi akurasi sensor IoT BroilerX dalam memantau kondisi lingkungan kandang ayam broiler di Fakultas Peternakan Universitas Gadjah Mada. Tujuan utama adalah menguji akurasi berbagai versi BroilerX (ambient 1.2 dan ambient 1.3) dalam mengukur suhu dan kadar ammonia di kandang. Hasil penelitian menunjukkan bahwa BroilerX ambient 1.2 lebih akurat dalam mengukur suhu dengan selisih data 1,23 ± 0,81 dibandingkan BroilerX ambient 1.3 yang memiliki selisih 1,76 ± 1,45. Sebaliknya, BroilerX ambient 1.3 lebih akurat dalam mengukur kadar ammonia dengan selisih data 1,02 ± 0,52 dibandingkan BroilerX ambient 1.2 yang memiliki selisih 25,23 ± 7,03. Penelitian ini menekankan perlunya pengembangan lebih lanjut untuk meningkatkan akurasi sensor pada versi BroilerX berikutnya.',
     },
     {
       title: '',
